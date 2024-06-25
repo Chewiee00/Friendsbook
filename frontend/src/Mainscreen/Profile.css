@@ -1,0 +1,12 @@
+.name{
+    display: flex;
+    justify-content: center;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+.buttonPadding{
+    display: flex;
+    justify-content: center;
+}

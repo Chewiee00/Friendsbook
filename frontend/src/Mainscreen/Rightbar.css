@@ -1,0 +1,114 @@
+.rightbar{
+    flex: 3.5;
+    position: fixed;
+    margin-left: 1400px;
+    float: right;
+    width: 400px;
+    overflow: hidden;
+}
+.contacts{
+    margin-top: 5px;
+    padding: 10px;
+    height: calc(50vh - 60px);
+    overflow-y: scroll;   
+}
+
+.friendsLabel{
+    cursor: pointer;
+    font-size: larger;
+    font-weight:900;
+    color: rgb(83, 79, 79);
+}
+
+.leftpadding{
+    padding: 20px; 
+}
+
+.Hr{
+    margin: 20px 0;
+}
+
+.friendreq{
+    height: calc(50vh - 60px);
+    overflow-y: scroll;
+}
+.friendslist{
+    
+    padding:5px;
+    margin: 0;
+    list-style: none;
+}
+.friend{
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor:pointer;
+    border-radius: 34px;
+}
+.friendphoto{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.friendslist .friend:hover {
+    background-color: rgb(213, 216, 213);
+}
+.friendname{
+    flex: 20%;
+    margin-right: 20px;
+  }
+.acceptorreject{
+    flex: 20%;
+    display: flex;
+    margin-left: 20px;
+}
+
+.acceptpadding{
+    border: 2px solid #12af66;
+    
+    align-items: center;
+    padding: 2px;
+    cursor:pointer;
+    background-color: #12af66;
+    border-radius: 2px;
+}
+.rejectpadding{
+    border: 2px solid  orangered;
+
+    padding: 3px;
+    align-items: center;
+    margin-left: 10px;
+    cursor:pointer;
+    background-color: orangered;
+    border-radius: 2px;
+  }
+.accept{
+    color: white;
+}
+
+.reject{
+    color: white;
+}
+
+.contacts {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+.contacts::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.friendreq {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+.friendreq::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}

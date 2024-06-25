@@ -1,0 +1,59 @@
+.middlebar{
+    flex: 5;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+.middlepadding{
+    padding: 20px;
+}
+.sharepost{
+    width:100%;
+    height: 170px;
+    border-radius: 10px;
+    /* background-color: white; */
+    box-shadow: -1px 2px 10px 0px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -1px 2px 10px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: -1px 2px 10px 0px rgba(0,0,0,0.22);
+}
+
+.posttop{
+    padding: 10px;
+    height: 100px;  
+    cursor:pointer;
+}
+
+.Hr1{
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+
+.input{
+    width: 100%;
+    border: none;
+    background: transparent;
+    
+}
+
+.input:focus{ 
+    outline: none;
+}
+
+.postbot{
+    padding:3px;
+    margin-right: 3px;
+}
+
+.sharebutton{
+    float: right;
+    border: none;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #12af66;
+    border-radius: 5px;
+}
+
+.buttonlabel{
+    color: white;
+    cursor: pointer;
+}

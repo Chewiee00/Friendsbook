@@ -1,0 +1,119 @@
+.posts{
+    padding: 20px;
+}
+.postslist{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+.postpadding{
+    margin-bottom: 30px;
+    list-style: none;
+    width:100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: -1px 2px 10px 0px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -1px 2px 10px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: -1px 2px 10px 0px rgba(0,0,0,0.22);
+}
+
+.post{
+    padding:15px;
+    margin: 0;
+    list-style: none;
+}
+
+.postname{
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 34px;
+    font-weight: 600;
+}
+
+.postphoto{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.timestamp{
+    color: rgb(74, 73, 73);
+    font-size: smaller;
+}
+
+.content{
+    width: 600px;
+    word-wrap: break-word;
+    white-space: normal;
+   margin-top: 10px; 
+   
+}
+.deleteORupdate{
+    flex: 20;
+    display: flex;
+    justify-content: flex-end;
+}
+.delete{
+    border: 2px solid orangered;
+    align-items: center;
+    padding: 2px;
+    cursor:pointer;
+    background-color: orangered;
+    border-radius: 2px;
+}
+.update{
+    border: 2px solid  #12af66;
+
+    padding: 3px;
+    align-items: center;
+    margin-left: 10px;
+    cursor:pointer;
+    background-color: #12af66;
+    border-radius: 2px;
+  }
+.deletelabel{
+    color: white;
+}
+
+.updatelabel{
+    color: white;
+}
+.sharepost{
+    width:100%;
+    height: 170px;
+    border-radius: 10px;
+    /* background-color: white; */
+    box-shadow: -1px 2px 10px 0px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -1px 2px 10px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: -1px 2px 10px 0px rgba(0,0,0,0.22);
+}
+
+.posttop{
+    padding: 10px;
+    height: 100px;  
+    cursor:pointer;
+}
+
+.Hr1{
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+
+.input{
+    width: 100%;
+    border: none;
+    background: transparent;
+    
+}
+
+.input:focus{ 
+    outline: none;
+}
+
+.postbot{
+    padding:3px;
+    margin-right: 3px;
+}

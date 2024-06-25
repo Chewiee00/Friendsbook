@@ -1,0 +1,178 @@
+.header-block{
+    background-color: #12af66;
+    border-bottom: 1.3px solid #40e89a;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    top:0;
+    display: flex;
+    box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.39);
+  }
+
+.header-logo{
+    height: 100px;
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    float:left;
+    cursor: pointer;
+}
+
+.header-left{
+  display: flex;
+  flex: 3;
+  align-items: center;
+}
+
+.header-center{
+  display: flex;
+  align-items: center;
+  flex:1.3;
+}
+
+.home-logo{
+  height: 40px;
+  width: 45px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.header-center img:hover {
+  opacity: 0.5;
+}
+.market-logo{
+  height: 40px;
+  width: 45px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.group-logo{
+  height: 40px;
+  width: 45px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.header-right{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.header-links{
+  margin-left: 280px;
+  height: 45px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 34px;
+  display:flex;
+  /* background-color: antiquewhite; */
+  flex:70%;
+}
+
+.profile-pic{
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  border-radius: 50px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.profile-name{
+  flex:50%;
+  margin-left: 15px;
+  margin-right: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+}
+.header-right .header-links:hover {
+  background-color: gray;
+}
+
+.Menu-links{
+  display: flex;
+  margin-right: 50px;
+  height: 45px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 34px;
+  display:flex;
+  flex:30%;
+  /* background-color: antiquewhite; */
+}
+
+
+.Menu{
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: space-around;
+
+}
+
+.Menu-icon{
+  height: 25px;
+  width: 25px;
+
+  cursor: pointer;
+}
+
+.header-right .Menu:hover {
+  background-color: gray;
+}
+
+.Mail{
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  margin-left: 10px;
+
+}
+
+.Mail-icon{
+  height: 30px;
+  width: 30px;
+  margin-left: 7.8px;
+  cursor: pointer;
+}
+
+.header-right .Mail:hover {
+  background-color: gray;
+}
+
+.Notif{
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  margin-left: 10px;
+
+}
+
+.Alarm-icon{
+  height: 28px;
+  width: 28px;
+  margin-left: 7.8px;
+  cursor: pointer;
+}
+
+.Logout-icon{
+  color:white;
+  height: 28px;
+  width: 28px;
+  margin-left: 7.8px;
+  cursor: pointer;
+}
+
+.header-right .Notif:hover {
+  background-color: gray;
+}
